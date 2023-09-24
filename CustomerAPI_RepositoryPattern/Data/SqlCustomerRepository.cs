@@ -34,7 +34,7 @@ namespace CustomerAPI_RepositoryPattern.Data
             await _context.Customers.AddAsync(customer);
         }
 
-        public void DeleteCommand(Customer customer)
+        public void DeleteCustomer(Customer customer)
         {
             if (customer is null)
                 throw new ArgumentNullException(nameof(customer));

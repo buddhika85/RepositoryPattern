@@ -10,6 +10,6 @@ namespace CustomerAPI_RepositoryPattern.Data
         Task CreateCustomerAsync(Customer customer);
         // update
 
-        void DeleteCommand(Customer customer);
+        void DeleteCustomer(Customer customer);
     }
 }
